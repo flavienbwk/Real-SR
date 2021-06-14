@@ -133,3 +133,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# flavienbwk/Real-SR gitignores
+models/*
+!models/.gitkeep
+exports/*
+!exports/.gitkeep
+sources/*
+!sources/.gitkeep

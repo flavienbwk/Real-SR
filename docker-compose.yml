@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+
+    test:
+        build: .
+        command: python3.7 /usr/app/test.py -opt /usr/app/options/df2k/test_df2k.yml
+        volumes:
+            - ./codes:/usr/app:ro
+            - ./models:/usr/models:ro
+            - ./sources:/sources:ro
+            - ./exports:/exports:ro

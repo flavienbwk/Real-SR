@@ -1,4 +1,4 @@
-name: Track1
+name: results # dir name for saving the testing results
 suffix: ~  # add suffix to saved images
 model: srgan
 distortion: sr
@@ -10,7 +10,7 @@ datasets:
   test_1:  # the 1st test dataset
     name: DIV2K
     mode: LR
-    dataroot_LR: ../../ntire20/Corrupted-te-x
+    dataroot_LR: /sources
 
 #### network structures
 network_G:
@@ -23,5 +23,5 @@ network_G:
 
 #### path
 path:
-  pretrain_model_G: ../pretrained_model/DF2K.pth
-  results_root: ./results/
+  pretrain_model_G: /usr/models/DF2K.pth
+  results_root: /exports/
