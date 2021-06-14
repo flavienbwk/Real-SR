@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.2.2-cudnn8-devel-ubuntu18.04
+FROM nvidia/cuda:11.2.2-cudnn8-runtime-ubuntu18.04
 # THIS DOCKERFILE REQUIRES BUILDKIT
 
 ENV DEBIAN_FRONTEND noninteractive
