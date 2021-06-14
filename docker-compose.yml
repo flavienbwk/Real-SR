@@ -9,4 +9,4 @@ services:
             - ./codes:/usr/app:ro
             - ./models:/usr/models:ro
             - ./sources:/sources:ro
-            - ./exports:/exports:ro
+            - ./exports:/usr/results/exports
